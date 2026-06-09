@@ -1,56 +1,44 @@
 # HR Attrition Analysis
 
-## Project Overview
+This project focuses on analyzing employee attrition data using SQL, Python, and Power BI. The objective was to identify key factors influencing employee turnover and uncover patterns related to departments, job roles, overtime, business travel, job satisfaction, work-life balance, and income levels.
 
-This project analyzes employee attrition data using SQL, Python, and Power BI to identify key factors influencing employee turnover. The analysis focuses on employee demographics, department performance, job roles, overtime, business travel, job satisfaction, work-life balance, and income levels.
-
-## Tools & Technologies
+## Tools Used
 
 * SQL Server
 * Power BI
 * Python
 * Excel
 
-## Key Metrics
+## Dashboard Preview
 
-* Total Employees: 1,470
-* Attrition Count: 237
-* Attrition Rate: 16.12%
-* Average Age: 37
-* Average Years at Company: 7.0
-* Average Monthly Income: 6.5K
+![Dashboard](HR_Attrition_Analysis_Dashboard.png)
 
----
+![Dashboard](Attrition_Drivers_Analysis_Dashboard.png)
 
-## Dashboard 1: HR Attrition Analysis Dashboard
+## Key Findings
 
-![Dashboard 1](HR Attrition Analysis Dashboard.png)
+* Total Employees: **1,470**
+* Attrition Count: **237**
+* Attrition Rate: **16.12%**
+* Average Employee Age: **37 Years**
+* Average Years at Company: **7.0 Years**
+* Average Monthly Income: **6.5K**
 
-### Key Insights
+### Attrition Insights
 
-* Research & Development recorded the highest attrition count.
-* Sales department showed a higher attrition rate compared to other departments.
-* Laboratory Technicians and Sales Executives experienced the highest attrition among job roles.
-* Overtime employees showed higher employee turnover.
-
----
-
-## Dashboard 2: Attrition Drivers Analysis Dashboard
-
-![Dashboard 2](Attrition Drivers Analysis Dashboard.png)
-
-### Key Insights
-
-* Travel_Rarely employees accounted for the highest attrition count.
-* Low environment satisfaction showed increased employee attrition.
-* Lower income groups experienced higher employee turnover.
-* Job satisfaction and work-life balance significantly influenced attrition patterns.
-
----
+* Research & Development recorded the highest attrition count with **133 employees**.
+* Sales department reported **92 attrition cases**.
+* Human Resources recorded **12 attrition cases**.
+* Laboratory Technicians experienced the highest attrition among job roles with **62 employees**.
+* Employees working overtime accounted for **127 attrition cases**, compared to **110** for employees without overtime.
+* Travel_Rarely employees accounted for **156 attrition cases**.
+* Low Environment Satisfaction recorded the highest attrition count (**72 employees**).
+* High Job Satisfaction and Low Job Satisfaction groups recorded **73** and **66** attrition cases respectively.
+* Most attrition occurred in the **0–5K income band (163 employees)**.
 
 ## SQL Analysis
 
-The SQL analysis includes:
+The SQL analysis covered:
 
 * Overall Employee Attrition Rate
 * Department-wise Attrition Analysis
@@ -60,19 +48,16 @@ The SQL analysis includes:
 * Education Field Analysis
 * Job Satisfaction Analysis
 * Work-Life Balance Analysis
+* Age Group Analysis
 * Income-Based Attrition Analysis
 
----
+## Project Files
 
-## Repository Files
-
-* HR Attrition Visuals.pbix
+* HR_Attrition_Visuals.pbix
 * HR_Attrition_SQL_Analysis.sql
 * HR_Attrition_Data_Check_with_Python.ipynb
 * HR_Attrition_Raw.csv
 
----
-
 ## Conclusion
 
-This project provides valuable insights into employee attrition patterns and highlights key factors affecting employee retention. The findings can help organizations make data-driven decisions to improve employee satisfaction and reduce turnover.
+This analysis highlights the major factors contributing to employee attrition and provides actionable insights for improving employee retention. The findings can help organizations make data-driven decisions related to workforce planning, employee engagement, and retention strategies.
