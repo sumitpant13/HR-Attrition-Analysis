@@ -11,7 +11,13 @@ This project focuses on analyzing employee attrition data using SQL, Python, and
 
 ## Dashboard Preview
 
+## Dashboard 1: HR Attrition Analysis Dashboard
+
 ![Dashboard](HR_Attrition_Analysis_Dashboard.png)
+
+---
+
+## Dashboard 2: Attrition Drivers Analysis Dashboard
 
 ![Dashboard](Attrition_Drivers_Analysis_Dashboard.png)
 
