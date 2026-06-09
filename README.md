@@ -75,4 +75,4 @@ The SQL analysis includes:
 
 ## Conclusion
 
-The analysis highlights the major factors contributing to employee attrition and provides actionable insights that can help organizations improve employee retention, workforce planning, and overall employee satisfaction.
+This project provides valuable insights into employee attrition patterns and highlights key factors affecting employee retention. The findings can help organizations make data-driven decisions to improve employee satisfaction and reduce turnover.
